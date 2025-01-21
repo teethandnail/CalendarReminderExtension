@@ -1,0 +1,47 @@
+{
+  "name": "vscode-calendar-reminder",
+  "displayName": "Calendar Reminder",
+  "description": "在 macOS 日历中自动创建提醒事项",
+  "version": "0.0.2",
+  "publisher": "honglinzhang",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "calendar",
+    "reminder",
+    "macos",
+    "markdown",
+    "todo"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "@types/vscode": "^1.65.0",
+    "@vscode/vsce": "^2.32.0",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vscode-calendar-reminder"
+  },
+  "author": "HonglinZhang",
+  "license": "MIT"
+}
