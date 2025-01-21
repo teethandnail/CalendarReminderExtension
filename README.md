@@ -11,7 +11,7 @@
 - 支持工作区配置，每个项目可以有独立的提醒文件
 
  ## 演示视频
-Uploading 1月21日 (2)(1).mp4…
+https://github.com/user-attachments/assets/ab9d0ae9-4fa0-4e2b-9d65-7c975ac890cb
 
 ## 使用前提
 
